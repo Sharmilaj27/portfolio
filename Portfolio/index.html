@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link 
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "E3Mxy6-_5s96rYNfR",
+        });
+      })();
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title> Sharmila's Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header class="header">
+      <div class="container navbar">
+        <h1><a href="#home" class="logo">Sharmila J</a></h1>
+
+        <nav role="navigation">
+          <ul class="nav-menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="hamburger"
+          aria-label="Toggle navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+    <!-- HERO SECTION -->
+    <section id="home">
+      <div class="container hero">
+        <div class="my-info">
+          <h2>I'm SHARMILA J</h2>
+          <span>Student - B.Tech(IT)</span>
+          <p>
+            My goal is to become a software engineer. I'm trying to learn many 
+            skills in online as well as offline to enrich my knowledge and become 
+            a wise person.
+
+          </p>
+          <div class="my-buttons">
+            <a href="#portfolio">
+              <button aria-label="View my portfolio">
+                My Portfolio
+              </button>
+            </a>
+            <a href="/myresume.pdf" download="/resume.pdf">
+              <button aria-label="Download my resume">
+                Download My Resume
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="-image">
+          <img
+            src="img9.png"
+            alt="Image of Sharmila"
+          />
+        </div>
+      </div>
+    </section>
+    <!------------- ABOUT SECTION ----------------->
+    <section
+      id="about"
+      class="about"
+      aria-labelledby="about-heading"
+    >
+      <h2 class="section-titles" id="about-heading">
+        About Me
+      </h2>
+      <div class="container about-inner">
+        <div class="about-info">
+          <p> <b>
+            I'm Sharmila J from R.M.D Engineering College.
+            I'm currently pursuing B.tech degree in Information
+            Technology.My short term goal is to get good 
+            percentage in exams and my long term goal is 
+            to get placed in a good company with a high salary.</b>
+          </p>
+          <ul> 
+            <li>Age: 18</li>
+            <li>Email: sharmila@gmail.com</li>
+            <li>Phone: 112 - 486- 54820</li>
+            <li>Address: No.27, Nehru street, Chennai</li>
+          </ul>
+        </div>
+        <div class="skills">
+          <div class="progress-bar" data-percentage="100">
+            <div class="label">HTML: 100%</div>
+            <div class="bar"></div>
+          </div>
+          <div class="progress-bar" data-percentage="85">
+            <div class="label">CSS: 85%</div>
+            <div class="bar"></div>
+          </div>
+          <div class="progress-bar" data-percentage="94">
+            <div class="label">JavaScript: 90%</div>
+            <div class="bar"></div>
+          </div>
+          <div class="progress-bar" data-percentage="85">
+            <div class="label">C++: 95%</div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------- JOB SECTION ----------------->
+    <section
+      id="experience"
+      class="jobs"
+      aria-labelledby="experience-heading"
+    >
+      <h2 class="section-titles" id="experience-heading">
+        MY EXPERIENCE
+      </h2>
+      <div class="container">
+        <div class="job-list">
+          <!-- FIRST LEFT JOB -->
+          <div class="job-item job-item-left">
+            <div>
+              <span class="job-date date-left">
+          
+              </span>
+              <div class="job-content">
+                <img
+                  class="job-logo"
+                  src="img2.png"
+                  alt="Biometric"
+                />
+                <h5>Biometric authentication in ATM</h5>
+                <p>
+                  A Biometric ATM is an advanced automated 
+                  teller machine that utilizes biometric 
+                  authentication methods to authenticate users
+                  based on one or more physical or behavioral
+                  characteristics, ensuring a secure, personalized, 
+                  and efficient banking experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- FIRST RIGHT JOB -->
+          <div class="job-right">
+            <div class="job-item job-item-right">
+              <div>
+                <span class="job-date date-right">
+                
+                </span>
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="img7.png"
+                    alt="Password"
+                  />
+                  <h5>Graphical password authentication</h5>
+                  <p>
+                    Passwords are ubiquitous today on any platform, on possibly any website.
+                    But to remember so difficult passwords and that too on numerous websites 
+                    seems daunting and therefore you can devise a project illustrating graphical 
+                    password strategy. This will allow the user to set passwords in the form of
+                    graphical presentation in a certain pattern and later use that pattern to 
+                    login o the system.  
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-item job-item-left">
+            <div>
+              <span class="job-date date-left">
+                
+              </span>
+              <div class="job-content">
+                <img
+                  class="job-logo"
+                  src="img3.png"
+                  alt="parking"
+                />
+                <h5>Smart parking system</h5>
+                <p>
+                  Smart parking can be defined as an IoT-powered system
+                  that relies on sensors and/or cameras to gather data 
+                  regarding the availability of spots in a particular
+                  parking area. To interact with such a system, a driver 
+                  needs the right mobile application 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-right">
+            <div class="job-item job-item-right">
+              <div>
+                <span class="job-date date-right">
+               
+                </span>
+                <div class="job-content">
+                  <img
+                    class="job-logo"
+                    src="img5.avif"
+                    alt="360` feedback"
+                  />
+                  <h5>360 degree feedback system</h5>
+                  <p>
+                    360 Degree Feedback is an assessment system or 
+                    process in which employees receive confidential,
+                    anonymous evaluations from the people who work around 
+                    them. This typically includes manager, peers, and 
+                    direct reports.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------- PROJECT SECTION --------------->
+
+    <section
+      id="portfolio"
+      class="portfolio"
+      aria-labelledby="portfolio-heading"
+    >
+      <h2 class="section-titles" id="portfolio-heading">
+        MY WORKS
+      </h2>
+      <div class="container">
+        <div class="projects">
+          <div class="project-images">
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                
+                <img
+                  src="img6.jpeg"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Forest fire detector</h4>
+                <span>-------------</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+               
+                <img
+                  src="img1.jpg"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Air quality monitoring</h4>
+                <span>--------------</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                
+                <img
+                  src="img4.webp"
+                  alt="project-image"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4> Automated irrigation systems using IoT sensors
+                </h4>
+                <span>-----------</span>
+              </div>
+            </div>
+            <div class="project">
+              <div class="card">
+                <div class="bg-overlay"></div>
+                <img 
+                  src="img8.jpg"
+                  alt="project-image"
+                  data-image="1"
+                  class="main-image"
+                />
+              </div>
+
+              <div class="content">
+                <h4>Solar-powered water purification systems
+                </h4>
+                <span>-------------</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h1>Let's <strong>discuss!</strong></h1>
+      </div>
+      <p>
+        It's time to respond!!!!!!
+      </p>
+      <div>
+        <form
+          id="contact-form"
+          aria-label="Contact-Form"
+          onsubmit="sendMail()"
+        >
+          <div class="form-row">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-input"
+              placeholder="Your Name"
+              required
+              aria-label="Your name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-input"
+              placeholder="Your Email"
+              required
+              aria-label="Your email"
+            />
+          </div>
+
+          <textarea
+            name="message"
+            id="message"
+            rows="6"
+            class="form-input"
+            required
+            placeholder="Enter your message here..."
+            style="resize: none"
+            aria-label="Your message"
+          ></textarea>
+
+          <div class="form-button">
+            <button type="submit">
+              Submit Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container footer-container">
+        <p>
+          &copy; 2024 Sharmila.com 
+          All rights reserved successfully.....
+        </p>
+
+        <div class="footer-icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-github"></ion-icon>
+          <ion-icon name="logo-discord"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
